@@ -1,4 +1,4 @@
 ---    
-- src: some git link1
+- src: https://github.com/lorephoenix/ansible-cisco_ios_upgrade.git
   version: main
   name: cisco_ios_upgrade
