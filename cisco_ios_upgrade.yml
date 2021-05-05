@@ -1,0 +1,7 @@
+---
+- name: Cisco IOS upgrade
+  hosts: all
+  gather_facts: no
+
+  roles:
+  - role: cisco_ios_upgrade
