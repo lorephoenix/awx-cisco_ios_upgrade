@@ -1,0 +1,24 @@
+collections:
+  - ansible.netcommon
+  - cisco.ios
+dependencies: 
+  - src: https://github.com/lorephoenix/ansible-cisco_ios_upgrade.git
+    scm: git
+    version: main
+    name: cisco_ios_upgrade
+galaxy_info:
+  author: Christophe Vermeren
+  description: Manage IOS software version on Cisco network devices
+  company: 
+  license: MIT
+  min_ansible_version: 2.9
+  platforms:
+    - name: IOS
+      versions:
+        - all 
+  galaxy_tags: 
+    - cisco
+    - ios
+    - network
+    - router
+    - switch
