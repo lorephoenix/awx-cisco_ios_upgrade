@@ -1,9 +1,10 @@
 ---
-- name: ansible.netcommon
-  source: https://galaxy.ansible.com
-- name: ansible.posix
-  source: https://galaxy.ansible.com
-- name: ansible.utils
-  source: https://galaxy.ansible.com
-- name: cisco.ios
-  source: https://galaxy.ansible.com    
+collections:
+  - name: ansible.netcommon
+    source: https://galaxy.ansible.com
+  - name: ansible.posix
+    source: https://galaxy.ansible.com
+  - name: ansible.utils
+    source: https://galaxy.ansible.com
+  - name: cisco.ios
+    source: https://galaxy.ansible.com    
